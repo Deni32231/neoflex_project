@@ -348,3 +348,27 @@ option{
   margin-right: 24px;
   margin-top: 48px;
 }
+
+@media (max-width: 1450px) {
+  .login__picture{
+    display: none;
+  }
+  .login__form{
+    width: 100%;
+  }
+  .login_form_btn{
+    padding: 8px 149px;
+  }
+  .login__form__label > input{
+    width: 347px;
+  }
+  .login__form{
+    justify-content: space-around;
+  }
+  .login__form > img{
+    margin: 0;
+  }
+  .register_container{
+    width: auto;
+  }
+}
